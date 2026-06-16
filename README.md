@@ -1,11 +1,11 @@
-##READ BEFORE INSTALLING:
-IF YOU WOULD LIKE TO TRY THIS PACKAGER OUT DO NOT DOWNLOAD THE ZIP FILE PROVIDED BY THE RELEASES
-ENTER THIS COMMAND ON YOUR ARCH BASED SYSTEM AS IT WILL INSTANTLY DOWNLOAD AND MOVE THE FILE TO WHERE IT NEEDS TO BE
+READ BEFORE INSTALLING:
+If you would like to install this packager, run this command in a terminal on your Arch-Based system, not any other way:
 
 curl -fsSL https://raw.githubusercontent.com/thesuepster/SuepsPackager/main/install.sh | sudo bash
 
+The reason you need to run this command is because it tells your system to grab the correct file and then put it where it needs to be on your system to function.
 
-#The SPKG installer is a package installer that can install any app or tool as long as it's in the Pacman, AUR, and Flatpak repositories.
+The SPKG installer is a package installer that can install any app or tool as long as it's in the Pacman, AUR, and Flatpak repositories.
 This only works on Arch-based linux and must have Flatpak and Paru installed on system for the full experience.
 You can do use SPKG to install Paru and Flatpak if you don't already have it.
 Here are the command layouts, insert whatever's necessary: sudo spkg <spkg feature> <app>
