@@ -44,4 +44,5 @@ install -m 755 spkg "$INSTALL_DIR/spkg"
 
 
 echo "Done!"
+echo "Done! Run 'spkg doctor' to verify your setup works."
 echo "Try: spkg search <app>"
